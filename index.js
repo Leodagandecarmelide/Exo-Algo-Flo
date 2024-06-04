@@ -10,10 +10,16 @@
 // }
 // console.log(nomDeMaFonction(On remplace le paramètre par ce qu'on désire)) //
 
-Const maFonction = (a,b) => {
-  (a*b)*a;
-}
-console.log(maFonction(2, 3))
+function calcul(a, b) {
+    return a + b;
+    }
+let  a = 2;
+let  b = 3;
+let result = calcul(a, b);
+console.log(result);
+
+let addition = (a,b) => a+b;
+console.log(addition(2,3));
 
 
 //----------------------------------------------------------------------------------------------//
@@ -25,6 +31,11 @@ console.log(maFonction(2, 3))
 // const monTableau = [1, 2, 3]
 // console.log(monTableau[0]) // 1
 
+const monTableau = [1, 2, 3];
+let valIndex = (a) => {
+  montableau[a];
+};
+console.log(valIndex);
 
 
 //----------------------------------------------------------------------------------------------//
