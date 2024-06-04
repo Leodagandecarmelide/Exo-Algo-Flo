@@ -6,9 +6,14 @@
 // Pour rappel pour écrire une fonction en JS on utilise la syntaxe suivante :
 
 // const nomDeMaFonction = (paramètre) => {
-//   // Code de ma fonction
+// Code de ma fonction
 // }
 // console.log(nomDeMaFonction(On remplace le paramètre par ce qu'on désire)) //
+
+Const maFonction = (a,b) => {
+  (a*b)*a;
+}
+console.log(maFonction(2, 3))
 
 
 //----------------------------------------------------------------------------------------------//
